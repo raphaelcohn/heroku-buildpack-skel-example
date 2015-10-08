@@ -3,4 +3,7 @@
 
 
 # Source'd (so does not need to be executable) and has access to all heroku_* functions and variables as set by 'compile'
-echo "Hello World"
+echo "===================="
+echo "Welcome to your Dyno"
+echo "Created by skeleton"
+echo "===================="
