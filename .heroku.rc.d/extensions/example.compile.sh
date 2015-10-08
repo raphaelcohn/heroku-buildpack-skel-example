@@ -7,7 +7,7 @@
 core_dependency_requires '*' lrzip
 _heroku_extension_example()
 {
-	heroku_buildpack_compile_actionMessageAndNotes "Running compile extension 'example.compile.sh'; does nothing, but could do quite a lot with build dir '$heroku_buildpack_buildDir', cache dir '$heroku_buildpack_cacheDir', env dir '$$heroku_buildpack_envDir' and other functions"
+	heroku_buildpack_compile_actionMessageAndNotes "Running compile extension 'example.compile.sh'; does nothing, but could do quite a lot with build dir '$heroku_buildpack_buildDir', cache dir '$heroku_buildpack_cacheDir', env dir '$heroku_buildpack_envDir' and other functions"
 	
 	# Force any missing build dependencies to be installed
 	core_dependency_installDependencies
