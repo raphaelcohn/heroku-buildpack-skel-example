@@ -1,0 +1,3 @@
+no-debsig
+log ${CACHE_DIR}/root/var/log/dpkg.log
+root ${CACHE_DIR}/root/
