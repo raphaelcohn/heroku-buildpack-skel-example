@@ -1,9 +1,6 @@
 [submodule ".heroku.rc.d/buildpacks/heroku-buildpack-skeleton"]
 	path = .heroku.rc.d/buildpacks/heroku-buildpack-skeleton
 	url = https://github.com/raphaelcohn/heroku-buildpack-skeleton.git
-[submodule ".heroku.rc.d/buildpacks/B.heroku-buildpack-ruby"]
-	path = .heroku.rc.d/buildpacks/B.heroku-buildpack-ruby
-	url = https://github.com/heroku/heroku-buildpack-ruby.git
 [submodule ".heroku.rc.d/buildpacks/A.heroku-buildpack-vendorbinaries"]
 	path = .heroku.rc.d/buildpacks/A.heroku-buildpack-vendorbinaries
 	url = https://github.com/peterkeen/heroku-buildpack-vendorbinaries.git

@@ -1,2 +1,0 @@
-no-debsig
-log ${CACHE_DIR}/var/log/dpkg.log

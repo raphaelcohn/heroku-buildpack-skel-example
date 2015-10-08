@@ -2,11 +2,4 @@
 # Copyright © 2015 The developers of heroku-buildpack-skel-example. See the COPYRIGHT file in the top-level directory of this distribution and at https://raw.githubusercontent.com/raphaelcohn/heroku-buildpack-skel-example/master/COPYRIGHT.
 
 
-#configure heroku appName heroku-buildpack-skel-example # Default is repository folder name
-configure heroku region eu # Default
-configure heroku remote heroku # Default
-configure heroku stack cedar-14 # Default
-configure heroku refspec master # Default; you may want to use a branch here (or any other SHA-1 expression, such as HEAD or master~4)
-#configure heroku domains www.example.com
-#configure heroku domains dev.example.com
-configure heroku preboot no # Default
+luajit

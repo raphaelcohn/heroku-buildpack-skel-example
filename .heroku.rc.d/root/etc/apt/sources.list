@@ -1,7 +1,0 @@
-# Default cedar-14 Apt sources
-deb http://archive.ubuntu.com/ubuntu trusty main
-deb http://archive.ubuntu.com/ubuntu trusty-security main
-deb http://archive.ubuntu.com/ubuntu trusty-updates main
-deb http://archive.ubuntu.com/ubuntu trusty universe
-
-deb http://apt.postgresql.org/pub/repos/apt/ trusty-pgdg main

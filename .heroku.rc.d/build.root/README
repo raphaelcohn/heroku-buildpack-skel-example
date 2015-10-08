@@ -1,0 +1,7 @@
+# This file is part of heroku-buildpack-skel-example. It is subject to the licence terms in the COPYRIGHT file found in the top-level directory of this distribution and at https://raw.githubusercontent.com/raphaelcohn/heroku-buildpack-skel-example/master/COPYRIGHT. No part of heroku-buildpack-skel-example, including this file, may be copied, modified, propagated, or distributed except according to the terms contained in the COPYRIGHT file.
+# Copyright © 2015 The developers of heroku-buildpack-skel-example. See the COPYRIGHT file in the top-level directory of this distribution and at https://raw.githubusercontent.com/raphaelcohn/heroku-buildpack-skel-example/master/COPYRIGHT.
+
+
+This folder acts very much like /opt in the Linux FHS, 2.3 (http://refspecs.linuxfoundation.org/FHS_2.3/fhs-2.3.html). There should be folders bin, man, info and lib (eg ./build.root/bin). Packages are installed as /build.root/<package>/<version> (or any other scheme). There should be symlinks from bin, man, info and lib to relevant files in /build.root/<package>/<version>. Symlinks should be strictly relative. Packages should find their resources, etc, by inspecting arg 0 ($0), which will normally be a full, absolute path. bin will be added to PATH, man to MANPATH, info to INFOPATH and lib to LD_LIBRARY_PATH.
+
+When deployed, build.root will reside at /tmp/cache/skeleton/.root (you'll need to know this if compiling some C code with hard coded paths).
